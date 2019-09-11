@@ -20,11 +20,11 @@ def remove_strawberry(contacts)
     
     hash.each do |attribute, value|
       
-      
-
-    if name == "Freddy Mercury" && attribute == :favorite_ice_cream_flavors
-      contacts[key][value].delete("strawberry")
-      binding.pry
+      if name == "Freddy Mercury" && attribute == :favorite_ice_cream_flavors
+        contacts[key][value].delete("strawberry")
+        binding.pry
+      end
+    
     end
     
   end
