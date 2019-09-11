@@ -20,7 +20,7 @@ def remove_strawberry(contacts)
     
     puts "Key: #{key}\nValue: #{value}"
     
-    if value == :favorite_ice_cream_flavors
+    if key == "Freddy Mercury" && value == :favorite_ice_cream_flavors
       contacts[key][value].delete("strawberry")
       binding.pry
     end
