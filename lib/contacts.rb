@@ -16,10 +16,10 @@ require 'pry'
   
 def remove_strawberry(contacts)
 
-  contacts.each do |key, value|
+  contacts.each do |name, hash|
     
-    puts "Key: #{key}\nValue: #{value}"
-    
+    value.each do |attribute, 
+
     if key == "Freddy Mercury" && value == :favorite_ice_cream_flavors
       contacts[key][value].delete("strawberry")
       binding.pry
