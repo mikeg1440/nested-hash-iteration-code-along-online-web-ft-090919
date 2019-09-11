@@ -22,7 +22,7 @@ def remove_strawberry(contacts)
       
       if name == "Freddy Mercury" && attribute == :favorite_ice_cream_flavors
         contacts[name][attribute].delete("strawberry")
-        binding.pry
+        # binding.pry
       end
     
     end
