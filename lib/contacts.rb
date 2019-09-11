@@ -20,6 +20,7 @@ def remove_strawberry(contacts)
     
     if value == :favorite_ice_cream_flavors && key == "Freddy Mercury"
       contacts[key][value].delete("strawberry")
+      binding.pry
     end
     
   end
